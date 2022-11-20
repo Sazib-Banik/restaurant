@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Inter:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+body {
+  font-family: "David Libre", serif;
+
+}
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #5C6574;
+}
+/* header area css */
+/* .hero_img{
+    background-image: url(../image/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.menu_part{
+    padding: 20px 0;
+}
+.menu .nav-item{
+    padding: 0px 5px;
+}
+.menu .nav-item .nav-link{
+    padding: 15px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    font-family: "Inter", sans-serif;
+    color: #101A24;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.menu .nav-item .active,
+.menu .nav-item:hover .nav-link{
+    color: #EA6D27;
+    font-weight: 500;
+}
+.theme_btn{
+    background-color: #EA6D27;
+    padding: 15px 20px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    border-radius: 15px 0px 15px 0px;
+    transition: 0.4s;
+    font-size: 20px;
+    font-family: "David Libre", serif;
+    font-weight: 500;
+}
+.theme_btn:hover {
+    background-color: #EA6D27;
+    color: #101A24;
+}
+.menu_btn{
+    background-color: #101A24;
+    transition: 0.4s;
+    margin-right: 20px;
+}
+.menu_btn:hover{
+    background-color: #101A24;
+    color: #EA6D27;
+}
