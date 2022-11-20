@@ -1,76 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Inter:wght@400;500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Inter:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul li{
-    list-style: none;
+ul li {
+  list-style: none;
 }
 body {
   font-family: "David Libre", serif;
-
 }
 p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 29px;
-  color: #5C6574;
+  color: #5c6574;
 }
 /* header area css */
-/* .hero_img{
-    background-image: url(../image/hero-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-.menu_part{
-    padding: 20px 0;
+.menu_part {
+  padding: 20px 0;
 }
-.menu .nav-item{
-    padding: 0px 5px;
+.menu .nav-item {
+  padding: 0px 5px;
 }
-.menu .nav-item .nav-link{
-    padding: 15px 20px;
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 29px;
-    font-family: "Inter", sans-serif;
-    color: #101A24;
-    text-transform: capitalize;
-    transition: 0.4s;
+.menu .nav-item .nav-link {
+  padding: 15px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  font-family: "Inter", sans-serif;
+  color: #101a24;
+  text-transform: capitalize;
+  transition: 0.4s;
 }
 .menu .nav-item .active,
-.menu .nav-item:hover .nav-link{
-    color: #EA6D27;
-    font-weight: 500;
+.menu .nav-item:hover .nav-link {
+  color: #ea6d27;
+  font-weight: 500;
 }
-.theme_btn{
-    background-color: #EA6D27;
-    padding: 15px 20px;
-    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
-    color: #ffffff;
-    border-radius: 15px 0px 15px 0px;
-    transition: 0.4s;
-    font-size: 20px;
-    font-family: "David Libre", serif;
-    font-weight: 500;
+.theme_btn {
+  background-color: #ea6d27;
+  padding: 15px 20px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  border-radius: 15px 0px 15px 0px;
+  transition: 0.4s;
+  font-size: 20px;
+  font-family: "David Libre", serif;
+  font-weight: 500;
 }
 .theme_btn:hover {
-    background-color: #EA6D27;
+  background-color: #ea6d27;
+  color: #101a24;
+}
+.menu_btn {
+  background-color: #101a24;
+  transition: 0.4s;
+  margin-right: 20px;
+}
+.menu_btn:hover {
+  background-color: #101a24;
+  color: #ea6d27;
+}
+/* hero area start */
+#hero_area {
+  padding: 140px 0;
+}
+.theme_content h1 {
+  font-size: 70px;
+  font-family: "David Libre", serif;
+  font-weight: 700;
+  color: #101a24;
+  line-height: 72px;
+  margin-bottom: 60px;
+}
+.theme_content p {
+    margin-bottom: 30px;
+}
+.social_icon{
+    margin-top: 60px;
+    position: relative;
+}
+.social_icon::after{
+    position: absolute;
+    content: "";
+    width: 140px;
+    height: 1px;
+    opacity: 0.15;
+border: 1px solid #000000;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.social_icon a {
+   transition: 0.4s;
+}
+.social_icon a i{
+    font-size: 20px;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid #101A24;
+    padding-top: 10px;
     color: #101A24;
+    margin-right: 15px;
 }
-.menu_btn{
-    background-color: #101A24;
-    transition: 0.4s;
-    margin-right: 20px;
-}
-.menu_btn:hover{
-    background-color: #101A24;
-    color: #EA6D27;
+.social_icon a:hover i{
+    border: 2px solid #ea6d27;
+    color: #ea6d27;
 }
