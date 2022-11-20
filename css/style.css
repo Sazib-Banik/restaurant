@@ -79,8 +79,8 @@ p {
   line-height: 72px;
   margin-bottom: 60px;
 }
-.theme_content p {
-  margin-bottom: 30px;
+.group_btn {
+  margin-top: 40px;
 }
 .social_icon {
   margin-top: 60px;
@@ -115,6 +115,7 @@ p {
   color: #ea6d27;
 }
 /* special area start */
+#restaurant_area,
 #special_area {
   padding: 100px 0;
   background: #f3f4f4;
@@ -129,7 +130,7 @@ p {
   color: #101a24;
   margin-bottom: 20px;
 }
-.special_heading p {
+.heading p {
   padding: 0px 130px;
 }
 .food_card {
@@ -144,8 +145,6 @@ p {
 .card_img {
   position: relative;
   margin-top: -140px;
-  /* width: 207px;
-  height: 207px; */
 }
 .card_img::after {
   position: absolute;
@@ -169,4 +168,8 @@ p {
   font-weight: 700;
   color: #101a24;
   padding-top: 35px;
+}
+/* restaurant area start */
+.restaurant_content{
+    padding-top: 80px;
 }
