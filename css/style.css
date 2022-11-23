@@ -124,6 +124,9 @@ p {
 .special_heading {
   margin-bottom: 50px;
 }
+.group_food_card {
+  margin-top: 100px;
+}
 .special_heading h2 {
   font-size: 60px;
   font-family: "David Libre", serif;
@@ -218,37 +221,84 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
 } */
-.testi_img img{
-    width: 109px !important;
-    height: 109px !important;
-    border-radius: 50%;
-    margin-left: 260px;
+#customer_area {
+  padding: 100px 0px 320px;
 }
-.star{
-    padding: 15px 0;
+.testi_img img {
+  width: 109px !important;
+  height: 109px !important;
+  border-radius: 50%;
+  margin-left: 260px;
+}
+.star {
+  padding: 15px 0;
 }
 .testi_content {
-    padding: 73px 60px 15px;
-    margin-top: -55px;
-    background: #ffffff;
-    border-radius: 50px 0px 50px 0px;
+  padding: 73px 60px 15px;
+  margin-top: -55px;
+  background: #ffffff;
+  border-radius: 50px 0px 50px 0px;
 }
 #customer_area .owl-dots {
-    position: absolute;
-    width: 100%;
-    bottom: -85px;
-    left: 30%;
+  position: absolute;
+  width: 100%;
+  bottom: -85px;
+  left: 30%;
 }
 #customer_area .owl-dots .owl-dot span {
-    width: 7px;
-    height: 7px;
-    margin: 5px 7px;
-    background: #c6c8ca;
-    display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity 0.2s ease;
-    border-radius: 30px;
-  }
-  #customer_area .owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
-    background: #ea6d27 !important;
-  }
+  width: 7px;
+  height: 7px;
+  margin: 5px 7px;
+  background: #c6c8ca;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s ease;
+  border-radius: 30px;
+}
+#customer_area .owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+  background: #ea6d27 !important;
+}
+/* newsletter area start */
+.newsletter {
+  background-image: url(../image/newsletter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  margin-top: -200px;
+  border-radius: 20px;
+  text-align: center;
+}
+.newsletter .special_heading h2 {
+  padding-top: 40px;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.news_form input {
+  width: 80%;
+  height: 50px;
+  padding: 0px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+.news_form input:focus {
+  outline: none;
+  border: none;
+}
+.news_form button {
+  margin-top: -3px;
+  padding: 11px 30px;
+  background: #ea6d27;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: -157px;
+  transition: 0.4s;
+}
+.news_form button:hover {
+  background: #ea6d27;
+  color: #ffffff;
+}
