@@ -17,7 +17,7 @@ $('.owl-carousel').owlCarousel({
             items:1.5,
             nav:false,
             dots: true,
-            loop:false
+            loop:true
         }
     }
 })
